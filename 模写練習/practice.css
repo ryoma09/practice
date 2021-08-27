@@ -1,0 +1,67 @@
+header{
+    padding:0px 50px;
+    position:fixed;
+    top:0;
+    display:flex;
+    width:100%;
+    z-index:500;
+    background-color:white;
+    height:102px;
+}
+.header-contents{
+    width:920px;
+}
+.header-logo{
+    width:200px;
+    margin-top:15px;
+}
+.phone-number{
+    display:flex;
+    padding-left:60%;
+}
+.phone-number p{
+    color:rgb(45, 143, 45);
+}
+.phone{
+    font-weight:bold;
+    padding-left:5px;
+}
+.phone:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+.header-list{
+    padding-left:130px;
+}
+.header-list ul{
+    list-style:none;
+    display:flex;
+}
+.header-list li{
+    margin:0px 15px;
+    font-size:14px;
+    padding-bottom:6px;
+}
+.header-list li:hover{
+    border-bottom:3px solid orange;
+    cursor:pointer;
+}
+.inquiry-form{
+background-color:rgb(250, 216, 121);
+text-align:center;
+color:white;
+width:77px;
+}
+.fa-envelope{
+    font-size:33px;
+    line-height:90px;
+}
+.inquiry-form p{
+    font-size:12px;
+}
+.contents{
+    padding-top:100px;
+    background-color:rgb(136, 207, 157);
+    height:1600px;
+    width:100%;
+}
